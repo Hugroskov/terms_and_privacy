@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Latinovibes Legal</title>
+  <style>
+    :root {
+      --bg: #fbf8f4;
+      --card: #ffffff;
+      --text: #171717;
+      --muted: #6f675f;
+      --line: #eadfce;
+      --accent: #c9894a;
+      --accent-soft: #f7ead8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #fdfaf6 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 22px 72px;
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 6vw, 48px);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+    }
+    .sub {
+      margin: 0 0 30px;
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+    .grid {
+      display: grid;
+      gap: 14px;
+    }
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 22px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+    .card:hover {
+      transform: translateY(-1px);
+      border-color: #dfc9ad;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+    }
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 8px;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .badge {
+      white-space: nowrap;
+      background: var(--accent-soft);
+      color: #a96a2a;
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .footer {
+      margin-top: 28px;
+      color: #9a9188;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">LATINOVIBES LEGAL</div>
+    <h1>Privacy and terms, kept simple.</h1>
+    <p class="sub">
+      These are the public legal pages for the Latinovibes app. Use the links below for your App Store submission and in-app legal footer.
+    </p>
+
+    <div class="grid">
+      <a class="card" href="./privacy.html">
+        <div class="card-top">
+          <div class="title">Privacy Policy</div>
+          <div class="badge">PUBLIC PAGE</div>
+        </div>
+        <p class="meta">How Latinovibes collects, uses, stores, and protects user information.</p>
+      </a>
+
+      <a class="card" href="./terms.html">
+        <div class="card-top">
+          <div class="title">Terms of Use</div>
+          <div class="badge">PUBLIC PAGE</div>
+        </div>
+        <p class="meta">The basic rules for using the app, subscriptions, payments, and account-related terms.</p>
+      </a>
+    </div>
+
+    <div class="footer">
+      Public legal pages for the Latinovibes app.
+    </div>
+  </main>
+</body>
+</html>
